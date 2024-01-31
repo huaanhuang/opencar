@@ -1,0 +1,16 @@
+
+--index-url https://mirrors.cloud.tencent.com/pypi/simple/
+
+--extra-index-url https://mirrors.tencent.com/repository/pypi/tencent_pypi/simple/
+
+aiortc
+requests
+websockets
+pyaudio
+pyyaml
+psutil
+loguru
+uvloop
+sounddevice
+numpy
+loguru

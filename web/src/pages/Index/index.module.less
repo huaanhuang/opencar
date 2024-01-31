@@ -1,0 +1,52 @@
+.container {
+  height: 100vh;
+  background-image: url("../../assets/bg.jpg");
+  overflow-y: hidden;
+  .content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .left {
+      width: 15%;
+      //background-color: #909399;
+    }
+
+    .center {
+      width: 70%;
+      margin-left: 5px;
+      margin-right: 5px;
+
+      .video {
+        overflow: hidden;
+        border: dashed 1px gray;
+        height: 80%;
+        width: 100%;
+        background-color: aliceblue;
+      }
+
+      .notOnline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: dashed 1px gray;
+        height: 80%;
+        width: 100%;
+        background-color: aliceblue;
+      }
+
+      .text {
+        color: #909399;
+      }
+
+      .ribbon {
+        padding: 10px 10px;
+      }
+    }
+
+    .right {
+      width: 15%;
+      //background-color: #909399;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+name: apms_proj
+mode: debug
+version: v1.2.0
+port: 8080
+
+log:
+  level: debug
+  filename: ./logs/main.log
+  max_size: 10
+  max_age: 30
+  max_backups: 5
+
+mysql:
+  host: mysql
+  port: 3306
+  user: root
+  password: 123456
+  db_name: test
+  max_open_conns: 100
+  max_idle_conns: 100
+  log_level: info
+
+redis:
+  host: redis
+  password:
+  port: 6379
+  db: 0
+  pool_size: 10
